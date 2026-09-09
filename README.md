@@ -1,6 +1,6 @@
 # MABC 2026 결선 가이드
 
-Upstage 크레딧 · API 키 발급 / Vercel 가입 및 배포 / Hermes Agent 설치 가이드를 한 페이지에 탭으로 묶은 참가자용 문서입니다.
+README(시작 안내) / Upstage Console(크레딧 · API 키) / GitHub 연동 / Vercel 배포 / Hermes Agent 설치 가이드를 한 페이지에 탭으로 묶은 참가자용 문서입니다.
 
 - 공개 주소: https://upstage-mabc-final-guide.vercel.app
 - `main` 브랜치에 푸시하면 Vercel이 자동으로 다시 배포합니다 (1~2분).
@@ -11,17 +11,20 @@ Upstage 크레딧 · API 키 발급 / Vercel 가입 및 배포 / Hermes Agent �
 |---|---|
 | `index.html` | 배포되는 파일 그 자체. **이 파일이 원본입니다.** 이미지가 전부 내장되어 있어 이것만 열어도 됩니다 |
 | `media/hermes/` | Upstage 콘솔 · 헤르메스 캡처 원본 (이메일 마스킹본) |
-| `media/vercel/` | Vercel 가이드 캡처 원본 |
+| `media/github/` | GitHub 연동 가이드 캡처 원본 (타임리 · 헤르메스 연동 화면 포함) |
+| `media/vercel/` | Vercel 가이드 캡처 원본 (타임리 커넥터 화면 포함) |
 | `vercel.json` | 배포 설정 (`cleanUrls`) |
 
 ## 고치는 법
 
 1. `index.html`을 VS Code, Cursor 등 텍스트 편집기로 엽니다.
-2. 세 문서는 각각 아래 블록 안에 있습니다. 찾기(Ctrl/Cmd+F)로 이동합니다.
-   - `data-doc="key"` — Upstage 크레딧 · API 키
-   - `data-doc="vercel"` — Vercel 가입 및 배포
-   - `data-doc="hermes"` — 헤르메스 설치 가이드
-3. 절 id 규칙: Upstage `key-sec1`, Vercel `v-sec1`·`v-sec1-1`, 헤르메스 `sec1`·`sec1-1`.
+2. 다섯 문서는 각각 아래 블록 안에 있습니다. 찾기(Ctrl/Cmd+F)로 이동합니다.
+   - `data-doc="home"` — README (시작 안내)
+   - `data-doc="key"` — Upstage Console (크레딧 · API 키)
+   - `data-doc="github"` — GitHub 연동
+   - `data-doc="vercel"` — Vercel 배포
+   - `data-doc="hermes"` — Hermes Agent 설치
+3. 절 id 규칙: 시작 안내 `home-intro`·`home-flow`, Upstage `key-sec1`, GitHub `gh-sec1`, Vercel `v-sec1`·`v-sec1-1`, 헤르메스 `sec1`·`sec1-1`.
    다른 문서의 절로 가는 링크는 `<a class="xref" href="#v-sec8">…</a>` 처럼 id만 적으면 탭이 자동으로 바뀝니다.
 4. 자주 쓰는 블록
    - 안내 상자: `<div class="callout callout--note">…</div>` (`note` / `tip` / `warn` / `danger`)
