@@ -11,6 +11,7 @@ README(시작 안내) / Upstage Console(크레딧 · API 키) / GitHub 연동 / 
 |---|---|
 | `index.html` | 배포되는 파일 그 자체. **이 파일이 원본입니다.** 이미지가 전부 내장되어 있어 이것만 열어도 됩니다 |
 | `media/hermes/` | Upstage 콘솔 · 헤르메스 캡처 원본 (이메일 마스킹본) |
+| `media/hermes/hermes-install-win.mp4` | Windows 설치 영상. 녹화 2개를 이어 붙여 1280×720 · 30fps · 무음으로 인코딩했습니다 (4분 1초) |
 | `media/hermes/hermes-install-mac.mp4` | macOS 설치 영상. OBS 녹화 3개를 이어 붙여 1280×800 · 30fps · 무음으로 인코딩했습니다 (5분 48초) |
 | `media/github/` | GitHub 연동 가이드 캡처 원본 (타임리 · 헤르메스 연동 화면 포함) |
 | `media/vercel/` | Vercel 가이드 캡처 원본 (타임리 커넥터 화면 포함) |
