@@ -13,6 +13,7 @@ README(시작 안내) / Upstage Console(크레딧 · API 키) / GitHub 연동 / 
 | `media/hermes/` | Upstage 콘솔 · 헤르메스 캡처 원본 (이메일 마스킹본) |
 | `media/github/` | GitHub 연동 가이드 캡처 원본 (타임리 · 헤르메스 연동 화면 포함) |
 | `media/vercel/` | Vercel 가이드 캡처 원본 (타임리 커넥터 화면 포함) |
+| `demo-skill/` | 시연용 스킬과 결선 킷 원본. 가이드 헤르메스 탭 부록 G에서 이 파일들을 내려받게 링크해 두었습니다 |
 | `vercel.json` | 배포 설정 (`cleanUrls`) |
 
 ## 고치는 법
